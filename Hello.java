@@ -2,7 +2,7 @@ class Hello{
 public static void main(String[] args){
 String name=System.getenv("USERNAME_VAR");
 if (name!=null){
-System.out.println("hello devops engineer" + "" + name);
+System.out.println("hello devops engineer" + " " + name);
 }
 else{
 System.out.println("Enviornmental variable is not set!");
